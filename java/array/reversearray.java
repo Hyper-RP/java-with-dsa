@@ -1,4 +1,4 @@
-package java.array;
+package array;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -8,13 +8,13 @@ public class reversearray {
         Scanner input=new Scanner(System.in);
         int []marks={5,8,6,9,4};
         int temp[]=new int [5];
+        int i=0;
         for (int j = marks.length-1; j >=0 ; j--) {
-            System.out.print((marks[j]));
+            temp[i]=marks[j];
+            i++;
         }
 
-                    System.out.println();
-        for (int num:marks){
-            System.out.print((num));
-        }
+        System.out.println(Arrays.toString(temp));
+
     }
 }
