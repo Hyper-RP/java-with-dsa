@@ -1,5 +1,5 @@
 package array;
-//multidimensional arrayn list and basic
+//multidimensional array list and basic
 import java.util.ArrayList;
 import java.util.Scanner;
 
