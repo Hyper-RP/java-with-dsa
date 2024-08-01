@@ -6,26 +6,14 @@ import java.util.Scanner;
 public class reversearray {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int marks[]={5,8,6,9,4};
+        int marks[]={5,8,6,9,4,7};
         int j=0;
-        int len=marks.length;
+        int len=marks.length-1;
         rev(marks,j,len);
-        System.out.println(marks);
-
-
-//        int []marks={5,8,6,9,4};
-//        int temp[]=new int [5];
-//        int i=0;
-//        for (int j = marks.length-1; j >=0 ; j--) {
-//            temp[i]=marks[j];
-//            i++;
-//        }
-
-//        System.out.println(Arrays.toString(temp));
-
+        System.out.println(Arrays.toString(marks));
     }
-    static void rev(int []arr,int n,int i){
-        while(i<n-1){
+    static void rev(int []arr,int i,int n){
+        while(i<n){
             swap(arr,i,n);
             i++;
             n--;
