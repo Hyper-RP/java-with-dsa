@@ -5,7 +5,7 @@ public class Find_number {
         int []arr={1,2,3,4,5};
         int target=4;
        int res= linearsearch(arr,target);
-        System.out.println(res);
+//        System.out.println(res);
     }
     static int linearsearch(int []num,int target) {
         if (num.length == 0) {
