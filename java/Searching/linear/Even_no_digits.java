@@ -1,4 +1,4 @@
-package Searching;
+package Searching.linear;
 //find numbers that have even no.of digits and if it is even return true or false
 public class Even_no_digits {
     public static void main(String[] args) {

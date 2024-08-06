@@ -1,4 +1,4 @@
-package Searching;
+package Searching.linear;
 //find max element in array
 public class Maxin_arr {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Searching;
+package Searching.linear;
 //search character in a string and if it is found return the index of character , otherwise return -1
 public class Search_ch {
     public static void main(String[] args) {

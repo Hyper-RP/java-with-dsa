@@ -1,4 +1,4 @@
-package Searching;
+package Searching.linear;
 //whether the number is exits or not
 public class Find_number {
     public static void main(String[] args) {

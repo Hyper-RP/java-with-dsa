@@ -1,4 +1,4 @@
-package Searching;
+package Searching.linear;
 //search the target in a given reange.
 //if target found return true otherwise return false
 public class Target_inrange {
