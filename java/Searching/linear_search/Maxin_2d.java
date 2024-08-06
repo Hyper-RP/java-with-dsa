@@ -1,8 +1,8 @@
-package Searching.linear;
+package Searching.linear_search;
 
 import java.util.Arrays;
 
-//find max element in 2d array and return the index.
+//find max element in 2d array and return the index..
 public class Maxin_2d {
     public static void main(String[] args) {
         int [][]arr={

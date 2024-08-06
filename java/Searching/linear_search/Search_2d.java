@@ -1,8 +1,8 @@
-package Searching.linear;
+package Searching.linear_search;
 
 import java.util.Arrays;
 
-//searching element in 2d dimensional array
+//searching element in 2d dimensional array.
 public class Search_2d {
     public static void main(String[] args) {
         int [][]arr={

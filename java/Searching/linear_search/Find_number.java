@@ -1,5 +1,5 @@
-package Searching.linear;
-//whether the number is exits or not
+package Searching.linear_search;
+//whether the number is exits or not.
 public class Find_number {
     public static void main(String[] args) {
         int []arr={1,2,3,4,5};
