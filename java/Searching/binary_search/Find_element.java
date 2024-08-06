@@ -1,4 +1,4 @@
-package Searching.binary;
+package Searching.binary_search;
 //find element in array using binary search
 public class Find_element {
     public static void main(String[] args) {
