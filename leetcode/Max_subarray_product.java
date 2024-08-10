@@ -3,7 +3,8 @@
 public class Max_subarray_product {
     public static void main(String[] args) {
         int []arr={2,3,-2,4};
-        maxProduct(arr);
+        int result=maxProduct(arr);
+        System.out.println(result);
     }
     public static int maxProduct(int[] nums) {
         int n=nums.length;
@@ -15,6 +16,6 @@ public class Max_subarray_product {
                 max=res;
             }
         }
-        return res;
+        return max;
     }
 }

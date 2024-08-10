@@ -11,7 +11,7 @@ public class Max_Product_subarray {
                 res=res*arr[j];
                 max=Math.max(max,res);
             }
-
         }
+        System.out.println(max);
     }
 }
