@@ -1,4 +1,4 @@
-
+//leetcode 367
 
 public class Perfect_sq {
     public static void main(String[] args) {
