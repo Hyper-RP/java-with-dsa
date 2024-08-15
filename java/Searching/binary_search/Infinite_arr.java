@@ -20,7 +20,7 @@ public class Infinite_arr {
         return isCheck(arr,target,start,end,mid);
     }
 
-    //finding element
+    //finding element..
     static int isCheck(int []arr,int target,int start,int end,int mid){
 
         while (start<=end){
