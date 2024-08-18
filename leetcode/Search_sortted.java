@@ -1,4 +1,4 @@
-
+//leetcode 33
 public class Search_sortted {
     public static void main(String[] args) {
         int arr[]={1,3};
