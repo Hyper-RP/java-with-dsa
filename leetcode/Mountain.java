@@ -24,6 +24,6 @@ public class Mountain {
                 break;
             }
         }
-        return arr[mid];
+        return arr[start];
     }
 }
