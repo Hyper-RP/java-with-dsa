@@ -3,7 +3,7 @@ package Searching.binary_search;
 public class ceilling {
     public static void main(String[] args) {
         int []arr={2,3,5,9,14,16,18};
-        int target=15;
+        int target=14;
         int res=isCeilling(arr,target);
         System.out.println(res);
     }
