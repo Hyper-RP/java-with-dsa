@@ -2,7 +2,7 @@
 //just a program to find pivot element
 public class pivot {
     public static void main(String[] args) {
-        int []arr={1,5,7,6,3};
+        int []arr={1,2,3,5,8,0,7,9,0};
         int res =findPivot(arr);
         System.out.println(res);
     }
