@@ -1,5 +1,6 @@
+package inbuild_function;
 
-//just a program to find pivot element
+//just a program to find inbuild_function.pivot element
 public class pivot {
     public static void main(String[] args) {
         int []arr={1,2,3,5,8,0,7,9,0};
