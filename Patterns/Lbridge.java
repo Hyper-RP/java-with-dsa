@@ -2,7 +2,6 @@ public class Lbridge {
     public static void main(String[] args) {
         pattern(5);
     }
-
     private static void pattern(int n) {
         int total_col=0;
         for (int i = 1; i <=n*2; i++) {
