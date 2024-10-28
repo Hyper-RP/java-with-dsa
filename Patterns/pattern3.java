@@ -1,4 +1,4 @@
-public class right_pyramid {
+public class pattern3 {
     public static void main(String[] args) {
         pattern(5);
     }
