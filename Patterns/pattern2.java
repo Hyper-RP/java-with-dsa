@@ -1,4 +1,4 @@
-public class drightPyramid {
+public class pattern2 {
     public static void main(String[] args) {
         pattern(5);
     }
