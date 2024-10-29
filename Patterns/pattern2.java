@@ -6,10 +6,9 @@ public class pattern2 {
     private static void pattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if(i<=j){
+                if (i <= j) {
                     System.out.print("*");
-                }
-                else {
+                } else {
                     System.out.print(" ");
                 }
             }
