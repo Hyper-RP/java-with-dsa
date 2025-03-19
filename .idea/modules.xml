@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Patterns/Inbuild_Function.iml" filepath="$PROJECT_DIR$/Patterns/Inbuild_Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inbuild_function/Inbuild_Function.iml" filepath="$PROJECT_DIR$/Inbuild_function/Inbuild_Function.iml" />
       <module fileurl="file://$PROJECT_DIR$/java with dsa.iml" filepath="$PROJECT_DIR$/java with dsa.iml" />
     </modules>
   </component>
