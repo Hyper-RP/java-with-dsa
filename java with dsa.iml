@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leetcode" isTestSource="false" packagePrefix="java" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/dsa/problems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Patterns" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
