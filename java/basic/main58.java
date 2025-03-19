@@ -22,7 +22,7 @@ public class main58 {
                  } else if (mid * mid > num) {
                      end = mid;
                  } else if (mid * mid < num) {
-                     start = mid ;
+                     start = mid;
                  }
              } else if (mid==start) {
                  if ((mid) * (mid) == num) {
