@@ -1,13 +1,35 @@
 package basic;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class main3 {
+
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        System.out.println("indian rs :");
-        int ind= input.nextInt();
-        double usd=ind/83.450;
-        System.out.println("total USD dollers : "+usd);
+        int[] arr = {3,5,0,0,4};
+        int[] res = result(arr);
+        System.out.println(Arrays.toString(res));
+    }
+
+
+    public static int[] result(int[] arr) {
+        int len = arr.length;
+        int index=0;
+        for (int i = 0; i < len ; i++) {
+
+            if(arr[i]!=0){
+                swap(arr,i,index);
+                index++;
+            }
+
+        }
+        return arr;
+    }
+
+    public static void swap(int[] arr, int firstIndex, int secondIndex) {
+
+        int temp = arr[firstIndex];
+        arr[firstIndex] = arr[secondIndex];
+        arr[secondIndex] = temp;
+
     }
 }
