@@ -31,7 +31,16 @@ public class main60 {
     }
 
     public static int findPivot(int arr[]) {
+        int n = arr.length;
+        int pivotIndex = -1;
 
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] < arr[i + 1]) {
+                pivotIndex = i;
+                break;
+            }
+        }
+        return pivotIndex;
     }
 
     public static void swap(int arr[],int start,int end,int swapCount){
