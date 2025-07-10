@@ -4,7 +4,7 @@ package basic;
 public class hard1 {
     public static void main(String[] args) {
         int num=11;
-        int last=1000;
+        int last=10000;
          isprime(num,last);
     }
     static void isprime(int n,int l){
@@ -36,6 +36,7 @@ public class hard1 {
             n+=1;
             res=1;
         }
+        System.out.println("Total Prime Number : "+digit);
         System.out.println(digit+" prime number");
         System.out.println(ndigits+" not prime number");
     }
