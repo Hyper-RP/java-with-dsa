@@ -105,6 +105,22 @@ public class LL {
     }
 
 
+        public void reverse(){
+        Node curr=head;
+        Node prev=null;
+
+        while (curr!=null){
+            Node next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+
+        }
+        head=prev;
+        display();
+    }
+
+
     public void display(){
         Node temp=head;
 
