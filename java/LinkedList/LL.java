@@ -51,7 +51,7 @@ public class LL {
 
     public int count(){
         int count=0;
-        if(head==null||head.next==null){
+        if(head==null){
             System.out.println("Zero nodes...Linked list is Empty");
         }
 
@@ -105,6 +105,21 @@ public class LL {
     }
 
 
+    public void deleteByValue(int num){
+        Node temp=head;
+        while (temp!=null){
+            if(temp.next.value==num){
+                temp.next=temp.next.next;
+                break;
+            } else if (temp.value==num) {
+                head=temp.next;
+                break;
+            }
+            temp=temp.next;
+        }
+    }
+
+
         public void reverse(){
         Node curr=head;
         Node prev=null;
@@ -119,6 +134,31 @@ public class LL {
         head=prev;
         display();
     }
+
+    public void middleElement(){
+        int listSize=count();
+        double num=Math.floor(listSize/2);
+        Node temp=head;
+        for (int i = 0; i <= num; i++) {
+            if(listSize==0){
+                System.out.println("linked list isn't valid...");
+                break;
+            }
+            if(listSize%2==0||listSize==1){
+                System.out.println("no middle element... due to size of linked list : "+listSize);
+                break;
+            }
+            if(i==num&&listSize>1){
+                System.out.println("Middle Element : "+temp.value);
+                break;
+            }
+            else {
+                temp=temp.next;
+            }
+        }
+    }
+
+
 
 
     public void display(){
