@@ -1,6 +1,4 @@
-package LinkedList;
-
-import java.util.Arrays;
+package LinkedList.singly;
 
 public class LL {
     Node head;
