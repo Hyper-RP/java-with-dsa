@@ -8,11 +8,9 @@ public class main {
         linkedList.insertingAtStart(3);
         linkedList.insertingAtStart(4);
         linkedList.insertingAtStart(5);
-//        linkedList.insertingAtEnd(6);
         linkedList.display();
         System.out.println();
-        linkedList.insertAtPosition(4,9);
-//        System.out.println(linkedList.count());
+        linkedList.deleteByPosition(5);
         linkedList.display();
     }
 

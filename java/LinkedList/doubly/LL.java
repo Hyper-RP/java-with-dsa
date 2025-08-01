@@ -66,6 +66,25 @@ public class LL {
     }
 
 
+    public void deleteByPosition(int index){
+        Node temp=head;
+
+        if(index==1){
+            head=head.next;
+            if(head!=null){
+                head.prev=null;
+            }
+            return;
+        }
+
+        for (int i = 1; i < index; i++) {
+            temp=temp.next;
+        }
+        temp.prev.next=temp.next;
+        temp.next.prev=temp.prev;
+    }
+
+
     public void display(){
         Node temp=head;
         while (temp!=null){
